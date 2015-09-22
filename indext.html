@@ -1,0 +1,63 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Adam's NFL Roster</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="site.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h1>My NFL Roster</h1>
+			</div>
+			<div class="panel-body">
+				<div class="player-roster">
+					<div class="player-card">
+						<div class="">
+							<div class="player-image"> <img src="Tecmo.png"
+								alt="Player 1"></div>
+							<div>
+								<span>Player Name: </span>
+							</div>
+							<div>
+								<span>Position: </span>
+							</div>
+							<div>
+								<span>Number: </span>
+							</div>
+						</div>
+						<button class="btn btn-danger remove-player">REMOVE</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<form>
+		<div class="form-group">
+			<label for="Player Name">Player Name</label>
+			<input type="text" class="form-control" id="name" placeholder="Doc Holiday">
+		</div>
+		<div class="form-group">
+			<label for="player Position">Player Position</label>
+			<input type="text" class="form-control" id="position" placeholder="Wide Receiver">
+		</div>
+		<div class="form-group">
+			<label for="Player Number">Player Number</label>
+			<input type="text" id="num">
+		</div>
+		<span class="btn btn-danger" id="add-player-button">Add New Player</span>
+
+	</form>
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>

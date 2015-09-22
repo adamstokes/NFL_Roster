@@ -1,0 +1,23 @@
+.player-card {
+	border: 1px solid black;
+	display: inline-block;
+	text-align: center;
+	color: white;
+}
+.player-roster {
+	text-align: center;
+}
+.panel-heading {
+	text-align: center;
+	text-shadow: 2px 2px darkslategrey
+}
+.container {
+	background: silver
+}
+body{
+	background-image: url("nfl gloves.png");
+	background-repeat: repeat-x;
+}
+.panel-body{
+	background-color: blue;
+}

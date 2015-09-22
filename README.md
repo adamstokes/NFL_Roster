@@ -19,7 +19,7 @@ Fantasy Football!!!
   - display the player's name
   - display the player's position
   - display the player's number
-12. Create a from inside the "player-form" div
+12. Create a form inside the "player-form" div
 13. Add an input field for Player Name, Position, and Number
 14. When the add button is pressed, it should automatically add a player to the Roster.
 15. Create a constructor for Player that accepts 3 arguments, Name, Position, Number.
